@@ -7,6 +7,7 @@ public class handlechrome {
 
        ChromeDriver ChromeDriver = new ChromeDriver();
        ChromeDriver.get("https:facebook.com");
+       ChromeDriver.get("https://google.com");
 
 
 
