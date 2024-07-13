@@ -8,6 +8,10 @@ public class handlechrome {
        ChromeDriver ChromeDriver = new ChromeDriver();
        ChromeDriver.get("https:facebook.com");
        ChromeDriver.get("https://google.com");
+      ChromeDriver.manage().window().maximize();
+      String Title = ChromeDriver.getTitle();
+        System.out.println("Title");
+        ChromeDriver.quit();
 
 
 
